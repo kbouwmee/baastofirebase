@@ -1,9 +1,9 @@
-* BaaS to Firestore migration utility
+# BaaS to Firestore migration utility
 
 This tool was created to quickly migrate data from BaaS to a Firestore database.
 
-** Configuration
-Please edit the config.js file to make changes. The following configuration items are supported:
+## Configuration
+Please create and edit a config.js file to make some settings. The following configuration items are supported:
 ```
 config.baas.org = 'demoorg';
 config.baas.app = 'demoapp';
@@ -18,10 +18,16 @@ config.firestore.db = 'test-db-1234';
 module.exports = config;
 ``` 
 
-** Firestore Service Account
-You need to export a private key for a service account from FireStore and place it in file service-key.json.
+## Firestore Service Account
+You need to export a private key for a service account from FireStore and place it in file service-key.json. Get serviceAccount JSON file from Project Setting > SERVICE ACCOUNTS in Firebase Console
 
-** Running the tool
+## Install
+Download or close this repository.
+`git clone https://github.com/kbouwmee/baastofirebase.git`
+Install npm packages:
+`npm install`
+
+## Running the tool
 To execute the migrate use this command:
 `node index.js`
 
