@@ -3,7 +3,7 @@
 This tool was created to quickly migrate data from BaaS to a Firestore database.
 
 ## Configuration
-Please create and edit a config.js file to make some settings. The following configuration items are supported:
+Please create and edit a `config.js` file to make some settings. The following configuration items are supported:
 ```
 config.baas.org = 'demoorg';
 config.baas.app = 'demoapp';
@@ -19,7 +19,7 @@ module.exports = config;
 ``` 
 
 ## Firestore Service Account
-You need to export a private key for a service account from FireStore and place it in file service-key.json. Get serviceAccount JSON file from Project Setting > SERVICE ACCOUNTS in Firebase Console
+You need to export a private key for a service account from FireStore and place it in file `service-key.json`. Get serviceAccount JSON file from Project Setting > SERVICE ACCOUNTS in Firebase Console. [See here for some screenshots](https://hackernoon.com/filling-cloud-firestore-with-data-3f67d26bd66e).
 
 ## Install
 Download or close this repository.
