@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "async": "^2.6.0",
     "firebase-admin": "^5.10.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
