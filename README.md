@@ -23,13 +23,19 @@ You need to export a private key for a service account from FireStore and place 
 
 ## Install
 Download or close this repository.
-```git clone https://github.com/kbouwmee/baastofirebase.git```
+```
+git clone https://github.com/kbouwmee/baastofirebase.git
+```
 
 Install npm packages:
-```npm install```
+```
+npm install
+```
 
 ## Running the tool
-To execute the migrate use this command:
-`node index.js`
+To execute the migration:
+```
+node index.js
+```
 
 
