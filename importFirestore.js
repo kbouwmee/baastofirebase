@@ -18,13 +18,14 @@ module.exports.import = function (data) {
 					.collection(key)
 					.doc(docTitle)
 					.set(nestedContent[docTitle])
-					.then((res) => {
+					/*.then((res) => {
 						console.log("Document successfully written!");
-					})
+					}) */
 					.catch((error) => {
 					console.error("Error writing document: ", error);
 					});
 			});
 		}
 	});
+	console.log("done.");
 }
