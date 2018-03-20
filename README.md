@@ -19,6 +19,12 @@ You need to export a private key for a service account from FireStore and place 
 ### Configuration
 Create and edit a `config.js` file to make some settings. The following configuration items are supported:
 ```
+var config = {};
+config.baas= {};
+// BaaS protocol http:// or https://
+config.baas.prot = "https://";
+// BaaS host name
+config.baas.host = "apibaas-trial.apigee.net";
 // BaaS org name to copy from
 config.baas.org = 'demoorg';
 // BaaS app name to copy from

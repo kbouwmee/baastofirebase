@@ -12,6 +12,6 @@ baas.export(function(data) {
                 	if(err) throw err;
                 	console.log('4. Saved data.json!');
         	});
-//		firestore.import(data);
+		firestore.import(data);
 	}
 );
