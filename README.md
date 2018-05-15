@@ -1,6 +1,6 @@
 # BaaS to Firestore migration
 
-This is not an officially supported Google product. This tool was created to help you migrate data from BaaS to Firestore. The toolwill download all collections from a BaaS organization and app and create the data entities in Firestore.
+This is not an officially supported Google product. This tool was created to help you migrate data from BaaS to Firestore. It will download all collections from a BaaS organization and app and create the data entities in Firestore.
 
 ## How to install
 Download or clone this repository:
