@@ -1,9 +1,9 @@
 # BaaS to Firestore migration
 
-This is not an officially supported Google product. This tool was created to help  migrate data from BaaS to a Firestore database.
+This is not an officially supported Google product. This tool was created to help you migrate data from BaaS to Firestore. The toolwill download all collections from a BaaS organization and app and create the data entities in Firestore.
 
 ## How to install
-Download or clone this repository.
+Download or clone this repository:
 ```
 git clone https://github.com/kbouwmee/baastofirebase.git
 ```
@@ -14,7 +14,7 @@ npm install
 ```
 
 ### Firestore Service Account
-You need to export a private key for a service account from FireStore and place it in file `service-key.json`. Get serviceAccount JSON file from Project Setting > SERVICE ACCOUNTS in Firebase Console. [See here for some screenshots](https://hackernoon.com/filling-cloud-firestore-with-data-3f67d26bd66e).
+You need to export a private key for a service account from FireStore and place it in a file called `service-key.json`. Get serviceAccount JSON file from Project Setting > SERVICE ACCOUNTS in Firebase Console. [See here for some screenshots](https://hackernoon.com/filling-cloud-firestore-with-data-3f67d26bd66e).
 
 ### Configuration
 Create and edit a `config.js` file to make some settings. The following configuration items are required:
@@ -47,5 +47,3 @@ To execute the migration:
 ```
 node index.js
 ```
-
-

@@ -12,6 +12,7 @@
  *     See the License for the specific language governing permissions and
  *     limitations under the License.
  */
+
 const admin = require('./node_modules/firebase-admin');
 const serviceAccount = require("./service-key.json");
 var config = require('./config.js');
